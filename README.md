@@ -279,5 +279,5 @@ Based on the quantitative findings across the dashboards and SQL query engine:
 **Manas Deshmukh**  
 *Data Analyst & Business Intelligence Specialist*  
 - 💼 **LinkedIn:** [linkedin.com/in/manas-deshmukh-493a35218](https://www.linkedin.com/in/manas-deshmukh-493a35218)  
-- 🌐 **Portfolio:** [manas-deshmukh.dev](https://manas-deshmukh.dev)  
-- 📧 **Email:** [manasdeshmukh51240@gmail.com](mailto:manasdeshmukh51240@gmail.com)  
+- 🌐 **Portfolio:** [manas-deshmukh.vercel.app](https://manas-deshmukh.vercel.app/)  
+- 📧 **Email:** [manasdeshmukh512@gmail.com](mailto:manasdeshmukh512@gmail.com)  
