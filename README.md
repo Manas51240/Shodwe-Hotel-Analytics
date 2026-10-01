@@ -3,7 +3,8 @@
 # 🏨 Shodwe Hospitality Business Intelligence & Revenue Analytics
 ### **End-to-End Enterprise Analytics: Power BI • Tableau • Advanced SQL • DAX • Dimensional Modeling**
 
-[![Power BI](https://img.shields.io/badge/Power_BI-Dashboard-F2C811?style=for-the-badge&logo=power-bi&logoColor=black)](dashboards/FINAL.pbix)
+[![Power BI](https://img.shields.io/badge/Power_BI-Report-F2C811?style=for-the-badge&logo=power-bi&logoColor=black)](dashboards/FINAL.pbix)
+[![Power BI PDF](https://img.shields.io/badge/Power_BI_PDF-Executive_Suite-E61C24?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](dashboards/Shodwe_Hotels_PowerBI_Executive_Suite.pdf)
 [![Tableau](https://img.shields.io/badge/Tableau-Worksheet-E97627?style=for-the-badge&logo=tableau&logoColor=white)](dashboards/Shodwe.twbx)
 [![SQL](https://img.shields.io/badge/SQL-Analytics-CC292B?style=for-the-badge&logo=postgresql&logoColor=white)](sql/)
 [![Excel](https://img.shields.io/badge/Excel-Financial_Model-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)](dashboards/Shodwe_Analysis.xlsx)
@@ -46,9 +47,48 @@ Build an end-to-end analytical solution—from raw transactional data ingestion 
 
 ## 📸 Interactive Dashboard Architecture
 
-The reporting suite is structured into 4 specialized operational viewpoints:
+The reporting suite features **dual enterprise reporting engines**: a comprehensive **4-Page Power BI Executive Suite** with AI-driven root-cause diagnostics, alongside an **Executive Excel Financial Realisation Model**.
 
-### 1. Executive Overview Dashboard
+---
+
+### 🌟 Tier 1: Power BI 4-Page Executive Suite
+> 📄 **[Download the Full 4-Page Power BI Executive PDF Report](dashboards/Shodwe_Hotels_PowerBI_Executive_Suite.pdf)** | **[.PBIX File](dashboards/FINAL.pbix)**
+
+#### 1. Executive Briefing & Star-Schema Architecture (Page 01)
+*Executive overview presenting four operational pillars (Scale, Capacity Leakage, Cancellation Erosion, Distribution Drag) alongside the verified star-schema topology and audited portfolio KPIs.*
+<div align="center">
+  <img src="images/powerbi/01_Executive_Briefing_Architecture.png" alt="Executive Briefing and Architecture" width="95%" />
+</div>
+
+<br/>
+
+#### 2. Revenue, Channels & Pricing Yield Dashboard (Page 02)
+*Interactive diagnostic slicing gross vs. realized revenue across metro cities (Mumbai, Bangalore, Hyderabad, Delhi), luxury vs. business categories, room tiers (Elite, Standard, Premium, Presidential), and distribution platforms.*
+<div align="center">
+  <img src="images/powerbi/02_Revenue_Channels_Pricing.png" alt="Revenue Channels & Pricing Yield Dashboard" width="95%" />
+</div>
+
+<br/>
+
+#### 3. Guest Demographics & Hotel Performance Scorecard (Page 03)
+*Customer age cohort economics (18–65 spectrum), booking volume vs. revenue generation, and a master performance scorecard ranking all 25 properties by ADR, occupancy, cancellations, and ratings.*
+<div align="center">
+  <img src="images/powerbi/03_Guest_Demographics_Scorecard.png" alt="Guest Demographics & Scorecard" width="95%" />
+</div>
+
+<br/>
+
+#### 4. AI Decomposition Intelligence & Strategic Action Radar (Page 04)
+*AI Decomposition Tree drilling down top-line revenue by geography and room class, weekly occupancy trajectories (W19–W32), and data-driven executive prescriptions (dynamic weekend surge, cancellation hedging).*
+<div align="center">
+  <img src="images/powerbi/04_AI_Decomposition_Radar.png" alt="AI Decomposition & Strategic Radar" width="95%" />
+</div>
+
+---
+
+### 📊 Tier 2: Operational Excel Financial Model & Dashboards
+
+#### 1. Executive Overview Dashboard
 *High-level executive scorecard tracking top-line revenue, occupancy trajectory, RevPAR, and city benchmarks.*
 <div align="center">
   <img src="images/00_Executive_Dashboard.png" alt="Executive Overview Dashboard" width="95%" />
@@ -56,7 +96,7 @@ The reporting suite is structured into 4 specialized operational viewpoints:
 
 <br/>
 
-### 2. Revenue & Financial Realisation
+#### 2. Revenue & Financial Realisation
 *Detailed diagnostic of gross vs. net revenue, realization attrition, and property ranking by financial contribution.*
 <div align="center">
   <img src="images/01_Revenue_Financial_Realisation.png" alt="Revenue & Financial Realisation Dashboard" width="95%" />
@@ -64,7 +104,7 @@ The reporting suite is structured into 4 specialized operational viewpoints:
 
 <br/>
 
-### 3. Occupancy, Capacity & Pricing Dynamics
+#### 3. Occupancy, Capacity & Pricing Dynamics
 *Drill-down into DSRN (Daily Sellable Room Nights), DURN (Daily Utilized Room Nights), ADR elasticities, and weekend surges.*
 <div align="center">
   <img src="images/02_Occupancy_Capacity_Pricing.png" alt="Occupancy and Capacity Dashboard" width="95%" />
@@ -72,7 +112,7 @@ The reporting suite is structured into 4 specialized operational viewpoints:
 
 <br/>
 
-### 4. Booking Channels, Conversion & Strategy
+#### 4. Booking Channels, Conversion & Strategy
 *Evaluation of direct bookings vs. OTAs (MakeMyTrip, LogTrip, Tripster) analyzing channel cancellation velocity and guest ratings.*
 <div align="center">
   <img src="images/03_Channels_Conversion_Strategy.png" alt="Channels and Conversion Dashboard" width="95%" />
